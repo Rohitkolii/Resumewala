@@ -1,0 +1,29 @@
+.header{
+    /* width: 95%; */
+    margin:100px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header div h1{
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header div p{
+    color: rgba(79, 79, 79, 0.779);
+    font-size: 16px;
+    margin: 5px 0px 30px 0;
+    /* width: 80%; */
+}
+
+.header div a{
+    background-color: #9f5bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+}

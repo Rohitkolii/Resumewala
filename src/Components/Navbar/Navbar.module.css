@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.navbar div ul{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.active{
+    background-color: #9f5bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.active svg{
+    transition: .5s;
+    font-size: 20px;
+}
+
+.active:hover>svg{
+    transform: translateX(3px);
+}
+
+.navbar div h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}

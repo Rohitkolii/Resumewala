@@ -1,0 +1,78 @@
+.Resumecon{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 50px;
+}
+
+.basiccol{
+    text-align: center;
+    border-bottom: 3px solid #9f5bff;
+    padding-bottom: 10px;
+}
+
+.basiccol .namehead{
+    color: #9f5bff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+}
+
+.objective{
+    padding: 10px 0;
+}
+
+.title{
+    color: #9f5bff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #9f5bff46;
+    padding: 5px 10px;
+}
+.Educational, .Project, .Achievements, .Languages, .Skills, .Hobbies{
+    margin-bottom: 20px;
+}
+.educationhead, .projecthead{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.educationhead p, .projecthead p{
+    font-weight: 500;
+}
+
+.Educational ul li, .Project ul li, .Achievements ul li{
+    font-size: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.educationcon, .projectcon{
+    margin-bottom: 10px;
+}
+
+.fade, .Resumecon li{
+    color: rgb(55, 55, 55);
+}
+
+.skillscon, .languagescon, .hobbiescon{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    list-style-type: disc;
+    text-transform: uppercase;
+}
+
+.skillscon li, .languagescon li, .hobbiescon li{
+    /* background-color: gray; */
+    padding: 5px;
+    width: fit-content;
+    font-size: 15px;
+}
